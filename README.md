@@ -27,7 +27,7 @@ Once you have deployed Activity Monitor then return here to follow the Discord s
 
 This button can be used for following the Heroku deployment steps.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bhigginsuk/discord-activity-monitor)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nerdyjohnny/discord-activity-monitor)
 
 ## Discord setup
 Follow these instructions once you have deployed Activity Monitor and added it to your Discord server.
