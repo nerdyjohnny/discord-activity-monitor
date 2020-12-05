@@ -65,22 +65,6 @@ const steps = [
                 return "Please either @mention some members or type 'none'"
         },
     },
-    {
-		message: "Please list any channels (include the #) to be ignored (or type 'none')",
-        action: (message, responseData) => {
-            return new Promise((resolve, reject) => {
-				responseData.ignoredChannelIDs = [];
-				if(message.mentions.channels.size > 0) {
-					message.mentions.channels.forEach(channel => responseData.ignoredChannelIDs.push(channel.id));
-					resolve();
-				}
-				else if (message.content.toLowerCase() !== "none")
-					reject("Please either list channels or type 'none'");
-				else
-					resolve();
-			});
-		}
-	},
 ]
 
 export default class SetupHelper
