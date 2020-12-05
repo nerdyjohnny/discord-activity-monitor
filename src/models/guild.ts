@@ -47,10 +47,6 @@ export default class Guild extends DisharmonyGuild
         return isIgnoredIndividually || hasIgnoredRole
     }
 
-    public channelIsIgnored(channel) {
-		return this.ignoredChannelIDs.indexOf(channel.id) >= 0;
-	}
-
 
     public canBotManageRole(targetRole: Role): boolean
     {
